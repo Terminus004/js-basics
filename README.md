@@ -36,7 +36,7 @@ interestRate = 1; // Updates interestRate value from 0.3 to 1
 console.log(interestRate);
 ```
 
-* ##### node output 
+##### <u>node output</u>
 `1`
 
 
@@ -47,7 +47,7 @@ const interestRate = 0.3;
 interestRate = 1; // Will not update instead we get an error. So we can't change it.
 console.log(interestRate);
 ```
-* ##### node output 
+##### <u>node output</u> 
 ```
 interestRate = 1;
              ^
