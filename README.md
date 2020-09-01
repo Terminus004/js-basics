@@ -7,6 +7,8 @@ you can add script in html file using
 ##### `<script>something</script>` 
 or call script file using `src="file.js"`
 
+### Check in browser using `Ctrl+Shift+i` or on CLI using 'npm index.js'
+
 ### In index.js version 0.0.1
 // Comment
 
@@ -14,7 +16,7 @@ or call script file using `src="file.js"`
 
 let name = 'Tracer007'; //creates a variable name`
 
-console.log(name); //name variable is called and shown in console 'Check in browser using Ctrl+Shift+i or using npm index.js
+console.log(name); //name variable is called and shown in console
 
 
 // variable name ----=
@@ -27,4 +29,10 @@ console.log(name); //name variable is called and shown in console 'Check in brow
 let firstName;
 ```
 
-### In index.js version 0.0.2
+### In index.js version 0.0.2(Constant)
+```
+let interestRate = 0.3;
+interestRate = 1; // Updates interestRate value from 0.3 to 1
+console.log(interestRate);
+```
+#npm output `1`
