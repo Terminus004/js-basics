@@ -1,12 +1,13 @@
 # JS is Easy
 
-you can add script in 
+you can add script in html file using
 
-#### `<script src="index.js"></script>`
+##### `<script src="index.js"></script>`
 
-#### `<script>something</script>` 
-or call script file using #### `src="file.js"`
-In index.js version 0.0.1
+##### `<script>something</script>` 
+or call script file using `src="file.js"`
+
+### In index.js version 0.0.1
 // Comment
 
 ```console.log('Hello World'); //creates a console message Hello World
@@ -23,4 +24,7 @@ console.log(name); //name variable is called and shown in console 'Check in brow
 // Cannot contain a space or hyphen (~)
 // 'let firstName' is camel notation where 'firstName' is case-sensitive
 
-`let firstName;`
+let firstName;
+```
+
+### In index.js version 0.0.2
