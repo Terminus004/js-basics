@@ -1,6 +1,9 @@
-#### `<script src="index.js"></script>`
+#JS is Easy
 
 you can add script in 
+
+#### `<script src="index.js"></script>`
+
 #### `<script>something</script>` 
 or call script file using #### `src="file.js"`
 In index.js version 0.0.1
