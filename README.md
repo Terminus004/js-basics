@@ -7,7 +7,7 @@ you can add script in html file using
 ##### `<script>something</script>` 
 or call script file using `src="file.js"`
 
-### Check in browser using `Ctrl+Shift+i` or on CLI using 'npm index.js'
+### Check in browser using `Ctrl+Shift+i` or on CLI using 'node index.js'
 
 ### In index.js version 0.0.1
 // Comment
@@ -35,4 +35,26 @@ let interestRate = 0.3;
 interestRate = 1; // Updates interestRate value from 0.3 to 1
 console.log(interestRate);
 ```
-#npm output `1`
+# node output `1`
+
+But this will create all types of bugs in future as `var` i.e. variable can be changed so we use `const` i.e. constant.
+
+```
+const interestRate = 0.3;
+interestRate = 1; // Will not update instead we get an error. So we can't change it.
+console.log(interestRate);
+```
+# node output 
+* ```
+interestRate = 1;
+             ^
+
+TypeError: Assignment to constant variable.
+    at Object.<anonymous> (/home/trinity/js-basics/index.js:2:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47
+```
