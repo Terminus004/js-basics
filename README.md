@@ -1,4 +1,4 @@
-#JS is Easy
+# JS is Easy
 
 you can add script in 
 
