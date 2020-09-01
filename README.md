@@ -1,5 +1,8 @@
-`<script src="index.js"></script>`
-// you can add script in '''<script>something</script>''' or call script file using src="file.js"
+#### `<script src="index.js"></script>`
+
+you can add script in 
+#### `<script>something</script>` 
+or call script file using #### `src="file.js"`
 In index.js version 0.0.1
 // Comment
 '''
