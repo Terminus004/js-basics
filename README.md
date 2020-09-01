@@ -7,9 +7,9 @@ you can add script in html file using
 ##### `<script>something</script>` 
 or call script file using `src="file.js"`
 
-### Check in browser using `Ctrl+Shift+i` or on CLI using 'node index.js'
+#### Check in browser using `Ctrl+Shift+i` or on CLI using 'node index.js'
 
-### In index.js version 0.0.1
+## In index.js version 0.0.1
 // Comment
 
 ```console.log('Hello World'); //creates a console message Hello World
@@ -29,13 +29,13 @@ console.log(name); //name variable is called and shown in console
 let firstName;
 ```
 
-### In index.js version 0.0.2(Constant)
+## In index.js version 0.0.2(Constant)
 ```
 let interestRate = 0.3;
 interestRate = 1; // Updates interestRate value from 0.3 to 1
 console.log(interestRate);
 ```
-# node output `1`
+#### node output `1`
 
 But this will create all types of bugs in future as `var` i.e. variable can be changed so we use `const` i.e. constant.
 
@@ -44,8 +44,8 @@ const interestRate = 0.3;
 interestRate = 1; // Will not update instead we get an error. So we can't change it.
 console.log(interestRate);
 ```
-# node output 
-* ```
+#### node output 
+```
 interestRate = 1;
              ^
 
