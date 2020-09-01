@@ -10,7 +10,7 @@ or call script file using `src="file.js"`
 #### Check in browser using `Ctrl+Shift+i` or on CLI using 'node index.js'
 
 ## In index.js version 0.0.1
-// Comment
+// Comment i.e. not executed in code
 
 ```console.log('Hello World'); //creates a console message Hello World
 
@@ -35,16 +35,19 @@ let interestRate = 0.3;
 interestRate = 1; // Updates interestRate value from 0.3 to 1
 console.log(interestRate);
 ```
-#### node output `1`
+***
+##### node output 
+`1`
+***
 
-##### But this will create all types of bugs in future as `var` i.e. variable can be changed so we use `const` i.e. constant.
+#### But this will create all types of bugs in future as `var` i.e. variable can be changed so we use `const` i.e. constant where the value is not changed frequently.
 
 ```
 const interestRate = 0.3;
 interestRate = 1; // Will not update instead we get an error. So we can't change it.
 console.log(interestRate);
 ```
-#### node output 
+##### node output 
 ```
 interestRate = 1;
              ^
