@@ -37,7 +37,7 @@ console.log(interestRate);
 ```
 #### node output `1`
 
-But this will create all types of bugs in future as `var` i.e. variable can be changed so we use `const` i.e. constant.
+##### But this will create all types of bugs in future as `var` i.e. variable can be changed so we use `const` i.e. constant.
 
 ```
 const interestRate = 0.3;
