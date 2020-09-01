@@ -12,7 +12,7 @@ or call script file using `src="file.js"`
 
 ```console.log('Hello World'); //creates a console message Hello World
 
-let name = 'Ashish'; //creates a variable name`
+let name = 'Tracer007'; //creates a variable name`
 
 console.log(name); //name variable is called and shown in console 'Check in browser using Ctrl+Shift+i or using npm index.js
 
