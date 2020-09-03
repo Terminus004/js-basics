@@ -14,7 +14,7 @@ or call script file using `src="file.js"`
 
 ```console.log('Hello World'); //creates a console message Hello World
 
-let name = 'Tracer007'; //creates a variable name`
+let name = 'Tracer007'; //creates a variable name
 
 console.log(name); //name variable is called and shown in console
 
@@ -36,7 +36,7 @@ interestRate = 1; // Updates interestRate value from 0.3 to 1
 console.log(interestRate);
 ```
 
-##### <u>node output</u>
+##### node output
 `1`
 
 
@@ -47,7 +47,7 @@ const interestRate = 0.3;
 interestRate = 1; // Will not update instead we get an error. So we can't change it.
 console.log(interestRate);
 ```
-##### <u>node output</u> 
+##### node output 
 ```
 interestRate = 1;
              ^
@@ -61,3 +61,65 @@ TypeError: Assignment to constant variable.
     at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
     at internal/main/run_main_module.js:17:47
 ```
+
+## In index.js version 0.0.3
+
+#### Now we will see types of variables
+##### It's of two types 1. `Primitive` 2. `Reference Types`
+##### In Primitive
+we have
+
+```
+// primitive/Value Types
+let name = 'Tracer007'; // String Literal
+let age = 20; // Number Literal
+let isApproved = false; // Boolean Literal
+let firstName = undefined; // Undefined Or
+let firstName;
+let selectedColor = null; // Null
+```
+
+## In index.js version 0.0.3.1
+
+#### Dynamic Typing
+##### We have 2 types od prog. languages 1. Static 2. Dynamic
+Static
+```
+string name = 'John'; // It means the type of variable can't be changed in progam it will always be string
+```
+
+Dynamic
+```
+let name = 'John'; // Variable type can be changed in run time
+```
+
+Let's check Console for an example Ctrl+Shift+I
+
+Using typeof we can find type of variable before and after changing value
+```
+typeof name
+"string"
+name = 1;
+1
+typeof name
+"number"
+typeof age
+"number"
+age = 20.4
+20.4
+typeof age
+"number"
+typeof isApproved
+"boolean"
+typeof firstName
+"undefined"
+typeof selectedColor
+"object"
+```
+Also javascript treats number and floating point number same
+
+## In index.js version 0.0.4
+#### 2. Reference Types
+
+It contains Object 
+##### Object
